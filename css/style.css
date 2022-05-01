@@ -209,5 +209,20 @@ nav ul li a {
   font-size: 16px;
   font-weight: 300;
 }
+.service-block{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.service-item{
+  background-color: #ffe9ff;
+  width: 31.5%;
+  padding: 30px;
+  margin: 10px;
+  
+}
 /* ================== services section ends */
+
+
 
