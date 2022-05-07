@@ -75,8 +75,6 @@ header {
   
   
 }
-.logo {
-}
 nav{
   padding-top: 10px;
 
@@ -274,4 +272,63 @@ nav ul li a {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   transition: 0.5s ease-in-out;
+}
+
+/* ============= recent work section starts */
+.recent-work{
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+.recent-work h1{
+  
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.recent-work p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.recent-work-content {
+  margin-top: 100px;
+  text-align: left;
+}
+.recent-work-content p{
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.recent-work-img{
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.recent-work::before{
+  content: "";
+  background: #ffe9ff;
+  height: 60%;
+  width: 50%;
+  position: absolute;
+  right:  0;
+  top: 33%;
+  z-index: -1;
+  padding-left: 30px;
+  border-top-left-radius:15px ;
+  border-bottom-left-radius:15px ;
+
+}
+ .more-work-btn{
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 10px;
+  background-color:#933798;
+  border: none;
+  padding: 10px 30px ;
+  font-size: 16px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+  display: block;
 }
