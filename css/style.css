@@ -332,3 +332,78 @@ nav ul li a {
   transition: 0.5s ease-in-out;
   display: block;
 }
+/* ================ pricing section starts ======== */
+.pricing{
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.pricing h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.pricing p{
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0 150px 50px 150px;
+}
+.pricing-box{
+  width: 31.5%;
+  background-color: #d9d9d9;
+  padding-bottom: 20px;
+  margin: 0 10px;
+}
+.pricing-box h3{
+  background-color: #933798;
+  color: #ffffff;
+  padding: 5px;
+}
+.pricing-box p{
+  padding: 10px;
+}
+.pricing-box h2{
+  padding: 10px;
+}
+.pricing-box ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.pricing-box button {
+  margin-top: 5px;
+  background-color: #6d2b70;
+  border: none;
+  padding: 8px 15px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+/* ================ Blog starts ================= */
+.blog {
+  text-align: center;
+}
+.blog h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.blog p{
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0 150px 20px 150px;
+}
+.blog-blox{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.blog-item{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+
+}
+.blog-item h4{
+  position: absolute;
+  text-align: left;
+  bottom: 25px;
+  padding: 0 0 0 15px;
+  color: #ffffff;
+}
